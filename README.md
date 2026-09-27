@@ -9,6 +9,8 @@
 
 # Invoice Nepal
 
+**[Open the app →](https://sannn-8848.github.io/invoice-nepal/)** · no sign-up, works offline
+
 A free invoice, quotation and receipt generator built for Nepali small businesses —
 cafés, shops, freelancers, tutors, studios. Works fully offline, stores nothing on a
 server, and prints to A4 or A5 with one click.
@@ -53,7 +55,8 @@ Sambat dates, amount in words.
 
 ## Quick start
 
-No build step, no install. Either:
+Use it online at <https://sannn-8848.github.io/invoice-nepal/>, or run it yourself —
+no build step, no install. Either:
 
 ```bash
 # just open it
@@ -68,11 +71,12 @@ python -m http.server 8000
 
 Then visit <http://localhost:8000>.
 
-## Deploy free
+## Deploy your own copy
 
-Push to GitHub and enable **Pages** on the repo, or drop the three app files on
-[Netlify Drop](https://app.netlify.com/drop) / [Vercel](https://vercel.com).
-It is static — nothing to configure.
+Push to GitHub and enable **Pages** with source *GitHub Actions* (the included
+`.github/workflows/pages.yml` handles the rest on every push), or drop the three
+app files on [Netlify Drop](https://app.netlify.com/drop) / [Vercel](https://vercel.com).
+It is static — nothing else to configure.
 
 ## Tech
 
